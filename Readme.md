@@ -8,3 +8,4 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 - [ ] Criar o Estilo da página.
 - [ ] Integrar o JS com o HTML.
 
+
