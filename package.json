@@ -1,0 +1,20 @@
+{
+  "name": "sige",
+  "version": "1.0.0",
+  "description": "criar uma página, em que eu consiga visualiazar o que eu já estudei, o que estou estudando no momento e o que eu vou estudar, podendo a qualquer momento adicionar ou remover estes itens da página.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Odisseu93/sige.git"
+  },
+  "author": "Ulises Silverio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Odisseu93/sige/issues"
+  },
+  "homepage": "https://github.com/Odisseu93/sige#readme"
+}

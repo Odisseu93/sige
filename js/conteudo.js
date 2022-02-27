@@ -3,7 +3,7 @@ export class Conteudo {
   _descricao;
   _status;
 
-  constructor(){
+  constructor(nome,descricao){
     this._nome = nome;
     this._descricao = descricao;
   }
