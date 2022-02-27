@@ -9,3 +9,12 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 - [ ] Integrar o JS com o HTML.
 
 
+## Daily reports:
+ 
+ 
+ ### Day 01
+- Criado o diagrama de classes
+- Criado os arquivos JS: Conteudo,Estudar e Index
+- Criado o arquivo package.json
+- iniciado as primeiras interações entre os módulos
+
