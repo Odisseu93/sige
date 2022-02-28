@@ -18,3 +18,8 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 - Criado o arquivo package.json
 - iniciado as primeiras interações entre os módulos
 
+ ### Day 02
+ - Criado os arquivos JS: estudando e estudado
+ - Imprementado o construtor da classe Conteudo nas classes filhas
+ - Imprementado o método addStatus() na classe Conteudo
+ - Atribuição de valor na variável _status nas  classes filhas de Conteudo
