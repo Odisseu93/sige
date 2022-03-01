@@ -14,7 +14,7 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
  
  ### Day 01
 - Criado o diagrama de classes
-- Criado os arquivos JS: Conteudo,Estudar e Index
+- Criado os arquivos JS: conteudo,estudar e index
 - Criado o arquivo package.json
 - iniciado as primeiras interações entre os módulos
 
@@ -23,3 +23,8 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
  - Imprementado o construtor da classe Conteudo nas classes filhas
  - Imprementado o método addStatus() na classe Conteudo
  - Atribuição de valor na variável _status nas  classes filhas de Conteudo
+
+### Day 03
+- Criado o arquivo HTMl formAddConteudo
+- Estudei sobre DOM(Modelo de Objeto de Documento)
+- Estudei sobre addEventListener()
