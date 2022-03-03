@@ -34,6 +34,15 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 - inclusão de uma tabela dinâmica a partir do input do usuário
 - Implementação do botão "inserir"
 - Implementação do botão "remover"
-- Remoção dos aruivos conteudo,estudando,estudar e estudado
+- Remoção dos arquivos conteudo,estudando,estudar e estudado
 - Alteração do nome do arquivo HTML "formAddConteudo.html" para "index.html"
 - Modificado a estrutura do HTML
+
+### Day 05
+- Criação o header
+- Criação do footer
+- Ajustes no html
+- Criação de pastas para organizar os arquivos do projeto
+- Criado o arquivo html "about" 
+- Edição no CSS
+

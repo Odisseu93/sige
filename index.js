@@ -1,5 +1,5 @@
 const btnAdd = document.getElementById("btnInserir");
-var cont = rows = document.getElementById("Rows").childElementCount + 1; //conta o número de filhos
+//var cont = rows = document.getElementById("Rows").childElementCount + 1; //conta o número de filhos
 btnAdd.addEventListener("click",addItens);// addEventListener() "escuta" o objeto 
 
 //notação húngara 
@@ -14,7 +14,7 @@ var rdnValueStatus = document.querySelector("input[name='rdnStatus']:checked");/
 //   alert("você selecionou Estudar!");
 // }
 
-fnAddRows.innerHTML = "<td>" + cont + "</td/" + "<td>" + txtContInput.value + 
+fnAddRows.innerHTML = "<td>" + txtContInput.value + 
                     "</td>" + "<td>" + textDescInput.value +
                     "</td>"+ "<td>" + rdnValueStatus.value + "</td>";
 
@@ -29,9 +29,8 @@ const btnRemove = document.getElementById("btnRemover");
 btnRemove.addEventListener("click",removeItens);// addEventListener() "escuta" o objeto 
 
 function removeItens(){
-  var rowSelected = document.getElementById("idInputField");
   var rows = document.getElementById("Rows").childNodes;
   //https://www.youtube.com/watch?v=4x2BpypEZDc
-  document.getElementById("Rows").removeChild(rows[rowSelected.value]);
+  document.getElementById("Rows").removeChild(rows[1]);
   //resolver o problema do indice
 }
