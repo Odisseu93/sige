@@ -3,10 +3,9 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 
 ## Primeira parte:
 - [x] Criar um diagrama de classes do  projeto.
-- [ ] Criar o projeto em uma estrutura de módulos, começar pela parte do JS.
-- [ ] Criar a estrutura em HTML.
+- [x] Criar a estrutura em HTML.
 - [ ] Criar o Estilo da página.
-- [ ] Integrar o JS com o HTML.
+- [x] Integrar o JS com o HTML.
 
 
 ## Daily reports:
@@ -28,3 +27,13 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 - Criado o arquivo HTMl formAddConteudo
 - Estudei sobre DOM(Modelo de Objeto de Documento)
 - Estudei sobre addEventListener()
+
+### Day 04
+- Alteração no projeto
+- Criação da branch newPj
+- inclusão de uma tabela dinâmica a partir do input do usuário
+- Implementação do botão "inserir"
+- Implementação do botão "remover"
+- Remoção dos aruivos conteudo,estudando,estudar e estudado
+- Alteração do nome do arquivo HTML "formAddConteudo.html" para "index.html"
+- Modificado a estrutura do HTML

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label> Conteúdo<br>  
+            <input type="text" id="txtConteudo">   
+        </label>
+        <label><br>Descrição<br>
+        <textarea id="txtDescricao" rows="10" cols="50"></textarea><br> 
+        </label>
+        <label><br>Status<br>
+            <div class="radioGroup">
+                <label><br>Estudar
+                    <input type="radio" id="rdnStatusInputValue-estudar" value="Estudar" name="rdnStatus" checked><!-- o name deve ser o mesmo-->
+                </label>
+                <label>Estudando
+                    <input type="radio" id="rdnStatusInputValue-estudando" value="Estudando" name="rdnStatus">
+                </label>
+                <label>Estudado
+                    <input type="radio" id="rdnStatusInputValue-estudado" value="Estudado" name="rdnStatus">
+                </label>
+            </div>   
+        </label>      
+        <input type="button" value="Inserir" id="btnInserir">   
+        
+    </form>
+    <table id="teste">
+        <thead>
+            <tr>
+              <th>id</th>
+              <th>conteúdo</th>
+              <th>Descrição</th>
+              <th>Status</th>
+            </tr>
+           </thead>
+           <tbody id="Rows" value="-1">
+          </tbody>
+    </table>
+ 
+    <input type="number" id="idInputField">   
+    <input type="button" value="Remover" id="btnRemover">
+       
+    <script src="./index.js"></script>
+</body>
+</html>
