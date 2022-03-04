@@ -1,25 +1,63 @@
+body {
+  font-size: 18px;
+  background: linear-gradient(90deg,#F2DFD8,#F1C4A5,white);
+}
+
 .cabecalho {
   display:flex;
   justify-content: space-evenly;
   align-items: center;
   margin:auto;
   padding: 30px;
-  background: linear-gradient(90deg,white,rgb(138, 105, 105),rgb(121, 106, 106));
+  background: linear-gradient(90deg,white 3%,#FFF6BA);
 }
 
-.nvMenu a{
+.nvMenu a {
    padding: 30px;
    font-weight: bold;
    color: white;
-  }
+   color: #000000;
+   widows: 100%;
+   text-decoration: none;
+}
 
-   
+.bntHome:hover {
+  text-decoration: underline;
+}
+.btnSobre:hover{
+  text-decoration: underline;
+}
 
-/*
-index.html
-inicio
-*/
+.bntHome:active {
+  color: green;
+}
+.btnSobre:active {
+  color: green;
+}
 
+strong {
+  font-weight: bold;
+}
+
+
+main{
+  background-image: url("fundo-main-index.png");
+  background-repeat: no-repeat;
+}
+
+.txt-sobre {
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  margin-top: 80px;
+  padding: 10px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
 
 .box-conteudo {
   margin-top: 30px;
@@ -37,20 +75,34 @@ inicio
   padding: 10px;
 }
 
-.rdnStatus{
+#btnInserir:hover {
+  border: 1px solid green;
+}
+
+#btnRemover:hover {
+  border: 1px solid green;
+}
+
+#btnInserir:active {
+  color: purple;}
+
+#btnRemover:active {
+  color: purple;}
+}
+
+
+.rdnStatus {
   margin-top: 10px;
 }
 
 #tbConteudo {
-  /* display:flex;
-  flex-direction: column; */
   margin:  30px auto; 
   text-align: center;
   align-items: center;
   
 }
 
-th{
+th {
   background: #CCCC;
 }
 
@@ -59,21 +111,78 @@ td,th {
   padding: 8px 15px;
 }
 
-.btns{
+.btns {
   width:25%;
   flex-direction: row;
   margin: auto;
   border-radius: 10px;
-  /* box-shadow: 10px -16 #000000 ; */
+}
+
+
+.rodape p {
+  color: #000000;
 }
 
 .rodape { 
+  width: 100%;
   display:flex;
   flex-direction: column;
   align-items: center;
   margin:auto;
   padding: 30px;
   color: white;
-  background: linear-gradient(180deg,white,rgb(138, 105, 105),rgb(121, 106, 106));;
+  background: linear-gradient(180deg,white,#FFF6BA);;
 }
 
+/*
+mobile incompleto
+*/
+@media(max-width: 768px){
+
+
+  main{
+    width: 100%;
+  }
+
+  .cabecalho{
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .principal {
+    width: 100%;
+  }
+
+ .txt-sobre {
+   width: 90%;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   margin: 5%;
+   box-sizing: border-box;
+
+ } 
+
+.box-conteudo {
+  padding: 10%;
+  align-items: center;
+}
+
+#txtDescricao {
+  width: 100%;
+}
+
+ .btns{
+   flex-direction: column ; 
+ }
+
+ #btnInserir,#btnRemover {
+   height: auto;
+   width:100%;
+   margin: 5%;
+ }
+
+
+
+
+}

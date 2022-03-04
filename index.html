@@ -1,59 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>SIGE - Sitema de Gerenciamento de Estudos</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
+    <header class="cabecalho">
+        <h1><img src="imagens/odisseu.png" alt="logo odisseu" class="logo"></h1>
+        <nav class="nvMenu">
+            <a href="index.html"><span class="bntHome">Home</span></a>
+            <a href="#txt-sobre" class="btnSobre">Sobre</a>
+        </nav>
+    </header>
+    <div class="txt-sobre" id="txt-sobre">
+        <h1 class="title-sobre">Sobre</h1>
+        <p class="msg-sobre">
+            <br>Consiga visualizar o que você já estudou,
+            vai estudar,
+            ou estudou, podendo a qualquer momento adicionar ou remover estes itens na página.
+        </p>
+    </div>
     <main class="principal">
-        <header class="cabecalho">
-            <h1><img src="imagens/odisseu.png" alt="logo odisseu" class="logo"></h1>
-            <nav class="nvMenu">
-                <a href="index.html">Home</a> 
-                <a href="html/about.html">Sobre</a> 
-            </nav>    
-        </header>
-            <form action="" class="formulario-conteudo">
+        <form action="" class="formulario-conteudo">
             <fieldset class="box-conteudo">
-                <label> Conteúdo<br>  
-                    <input type="text" id="txtConteudo">   
+                <label class="box-conteudo"><strong>Conteúdo</strong><br><br>
+                    <input type="text" id="txtConteudo" placeholder="Insira o nome do conteúdo">
                 </label>
-                <label><br>Descrição<br>
-                <textarea id="txtDescricao" rows="10" cols="50"></textarea><br> 
+                <label class="box-desc"><br><strong>Descrição</strong><br><br>
+                    <textarea id="txtDescricao" rows="10" cols="50"
+                        placeholder="Insira a descriação do conteúdo"></textarea><br>
                 </label>
             </fieldset>
             <fieldset class="box-status">
-                <br>Status<br>
-                    <div class="radioGroup">            
-                        <label>
-                            <input type="radio" id="rdnStatusInputValue-estudar" value="Estudar" name="rdnStatus"  class="rdnStatus" checked><!-- o name deve ser o mesmo-->
-                            Estudar<br>
-                        </label>
-                        <label>
-                            <input type="radio" id="rdnStatusInputValue-estudando" value="Estudando" name="rdnStatus" class="rdnStatus">
-                            Estudando<br>
-                        </label>
-                        <label>
-                            <input type="radio" id="rdnStatusInputValue-estudado" value="Estudado" name="rdnStatus" class="rdnStatus">
-                            Estudado<br>
-                        </label>
-                    </div> 
-                    </fieldset>
-        <div class="btns">           
-        <input type="button" value="Inserir" id="btnInserir" class="btns">   
-        <input type="button" value="Remover" id="btnRemover" class="btns">   
-        </div>           
+                <br><strong>Status</strong>
+                <div class="radioGroup">
+                    <label>
+                        <input type="radio" id="rdnStatusInputValue-estudar" value="Estudar" name="rdnStatus"
+                            class="rdnStatus" checked><!-- o name deve ser o mesmo-->
+                        Estudar<br>
+                    </label>
+                    <label>
+                        <input type="radio" id="rdnStatusInputValue-estudando" value="Estudando" name="rdnStatus"
+                            class="rdnStatus">
+                        Estudando<br>
+                    </label>
+                    <label>
+                        <input type="radio" id="rdnStatusInputValue-estudado" value="Estudado" name="rdnStatus"
+                            class="rdnStatus">
+                        Estudado<br>
+                    </label>
+                </div>
+            </fieldset>
+            <div class="btns">
+                <input type="button" value="Inserir" id="btnInserir" class="btns" placeholder="csadsad">
+                <input type="button" value="Remover" id="btnRemover" class="btns">
+            </div>
         </form>
         <table id="tbConteudo">
             <thead>
                 <tr>
-                <th>conteúdo</th>
-                <th>Descrição</th>
-                <th>Status</th>
+                    <th><strong>conteúdo</strong></th>
+                    <th><strong>Descrição</strong></th>
+                    <th><strong>Status</strong></th>
                 </tr>
             </thead>
             <tbody id="Rows" value="-1">
@@ -63,8 +77,8 @@
     </main>
     <footer class="rodape">
         <h1><img src="imagens/odisseu_2.png" alt="logo odisseu 2" class="logo"></h1>
-        <p>Copyright &copy; 2022 - Ulisses Silvério<a
-            href="https://github.com/odisseu93"></a></p>
+        <p>Copyright &copy; 2022 - Ulisses Silvério<a href="https://github.com/odisseu93"></a></p>
     </footer>
 </body>
+
 </html>

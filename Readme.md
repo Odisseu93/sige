@@ -4,7 +4,7 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 ## Primeira parte:
 - [x] Criar um diagrama de classes do  projeto.
 - [x] Criar a estrutura em HTML.
-- [ ] Criar o Estilo da página.
+- [x] Criar o Estilo da página.
 - [x] Integrar o JS com o HTML.
 
 
@@ -46,3 +46,11 @@ O objetivo deste projeto é aplicar um pouco do meu conhecimento atual em HTML, 
 - Criado o arquivo html "about" 
 - Edição no CSS
 
+
+ ### Day 06
+- Edição no css
+- Adição do fundo da página
+- Edição no html
+- Alteração na funçã removeItens()
+
+### Link da página [Clique aqui!](https://odisseu93.github.io/sige/)
